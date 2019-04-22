@@ -1,0 +1,5 @@
+(include "random.lib")
+(randomSeed 36)
+(define s (cons-stream (randomRange -10 10) s))
+(define t (smush s (getElement (list + - * /) (randomRange 0 4))))
+(sdisplay 12 t) (println)

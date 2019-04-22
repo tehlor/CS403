@@ -1,0 +1,5 @@
+(define (g w x y z) (* w x y z))
+51
+83
+-63
+24
