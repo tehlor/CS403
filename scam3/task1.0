@@ -1,1 +1,0 @@
-(println (scoping 'cs403sucks ((define (zirp x) this) 5)))

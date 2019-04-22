@@ -1,3 +1,0 @@
-(scoping (quote x) this) is undefined
-(scoping (quote this) this) is bound
-(scoping (quote quote) this) is free
